@@ -1,4 +1,7 @@
 function generarFizzBuzz(n) {
-    return '1';
+    if(n===3){
+        return 'Fizz';
+    }
+    return n.toString();
   }
   export default generarFizzBuzz;
